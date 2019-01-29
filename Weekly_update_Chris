@@ -1,0 +1,4 @@
+1. Download NPB benchmarks.
+2. Install llvm on laptop
+3. Install ninja
+4. Start readign the document of each compiler
