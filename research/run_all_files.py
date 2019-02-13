@@ -5,7 +5,7 @@ import os
 # find all filenames
 def locate_files():
   files = []
-  for name in glob.glob('simple-code-tests/bin/out_*'):
+  for name in glob.glob('simple-code-tests/*.out'):
     files.append(name)
   return files
 
@@ -21,5 +21,5 @@ if __name__ == "__main__":
   print all_files
   f         = open('output.txt', 'w')
   for filename in all_files:
-    f.write(filename + ': ' + str(time_execution(filename))+'\n')
+    f.write(filename + ':\t' + str(time_execution(filename))+'\n')
   f.close()
