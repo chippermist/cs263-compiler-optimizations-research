@@ -5,7 +5,7 @@ import os
 # find all filenames
 def locate_files():
   files = []
-  for name in glob.glob('simple-code-tests/*.out'):
+  for name in glob.glob('cpp_files/*.out'):
     files.append(name)
   return files
 
