@@ -1,0 +1,4 @@
+simple-code-tests/mergeIntervals.out:	0.00721502304077
+simple-code-tests/findOddRepeatedNumbers.out:	0.00783181190491
+simple-code-tests/mismatchNames.out:	0.00706791877747
+simple-code-tests/missingNumbersString.out:	0.00781512260437
