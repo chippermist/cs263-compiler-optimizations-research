@@ -19,7 +19,8 @@ def time_execution(filename):
 if __name__ == "__main__":
   all_files = locate_files()
   print all_files
-  f         = open('output.txt', 'w')
+  f         = open('output.txt', 'w+')
+  f.write('\n\n----------------------\n\n')
   for filename in all_files:
     f.write(filename + ':\t' + str(time_execution(filename))+'\n')
   f.close()
