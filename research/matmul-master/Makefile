@@ -1,5 +1,6 @@
-CC=			gcc
-CFLAGS=		-g -Wall -Wc++-compat -Ofast
+CC=			gcc-8.3
+CXX=	g++-8.3
+CFLAGS=		-g -Wall -Wc++-compat 
 CXXFLAGS=	-g -Wall -Ofast -DNDEBUG -DBOOST_UBLAS_NDEBUG
 PROG=		matmul matmul-boost
 #CBLAS=		$(HOME)/OpenBLAS
